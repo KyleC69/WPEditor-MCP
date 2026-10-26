@@ -1,10 +1,8 @@
-# Sentinel-MCP
+# WPEditor-MCP
 
 > Turn your WordPress site into a first-class **Model Context Protocol (MCP)** server.
 
-**Sentinel-MCP** lets AI assistants like Claude, ChatGPT, GitHub Copilot, Cursor, Windsurf, Continue, and JetBrains AI manage your WordPress content using natural language.
-
-[alt text](Sentinel-MCP.png)*
+**WPEditor-MCP** lets AI assistants like Claude, ChatGPT, GitHub Copilot, Cursor, Windsurf, Continue, and JetBrains AI manage your WordPress content using natural language.
 
 
 
@@ -13,9 +11,9 @@ every Custom Post Type, taxonomy, ACF group, custom field, and registered meta o
 
 ---
 
-## Why Sentinel-MCP?
+## Why WPEditor-MCP?
 
-Most WordPress MCP plugins ship 10–20 hardcoded tools that wrap a fixed list of REST endpoints. Sentinel-MCP ships **60+ abilities** out of the box, plus trust, onboarding, and observability features that the rest of the ecosystem treats as paid extras:
+Most WordPress MCP plugins ship 10–20 hardcoded tools that wrap a fixed list of REST endpoints. WPEditor-MCP ships **60+ abilities** out of the box, plus trust, onboarding, and observability features that the rest of the ecosystem treats as paid extras:
 
 - **Auto-discovery, not hardcoded tools.** Your AI client sees your real schema — CPTs from CPT UI, ACF, JetEngine, Pods, Toolset; taxonomies; statuses; shortcodes; permalink structure — generated at runtime.
 - **OAuth 2.1 with PKCE built in.** No application passwords. The plugin runs its own OAuth 2.1 server with Dynamic Client Registration so Claude, ChatGPT, Cursor, and Copilot connect with one click.
@@ -81,8 +79,8 @@ Any application that implements the Model Context Protocol with remote server su
 
 1. Download the plugin ZIP from the [Releases](../../releases) page.
 2. In your WordPress admin, go to **Plugins → Add New → Upload Plugin**.
-3. Activate **Sentinel-MCP**.
-4. Go to **Settings → Sentinel-MCP** and run the **Get Started** wizard.
+3. Activate **WPEditor-MCP**.
+4. Go to **Settings → WPEditor-MCP** and run the **Get Started** wizard.
 5. Copy your MCP server URL from the **Connect** tab and paste it into your AI client.
 
 ---
@@ -162,7 +160,7 @@ List every installed plugin and activate or deactivate them.
 - Activity Audit trail with 30-day retention and paginated admin viewer
 - Hourly and daily rate limits per `client_id`
 - MCP annotations on every ability
-- Public `/wp-json/sentinel/v1/health` endpoint
+- Public `/wp-json/WPEditor/v1/health` endpoint
 
 ### Onboarding & Connection
 
@@ -177,7 +175,7 @@ List every installed plugin and activate or deactivate them.
 
 ## AI Mode (Built-In Chat) - MCP server free no-hassle AI interface for site maintenance
 
-When running WordPress 7.0+, Sentinel-MCP includes a **fullscreen AI chat** directly in the WordPress admin. Talk to your site’s AI assistant without leaving the dashboard. Supports multiple providers via the WordPress Connectors API:
+When running WordPress 7.0+, WPEditor-MCP includes a **fullscreen AI chat** directly in the WordPress admin. Talk to your site’s AI assistant without leaving the dashboard. Supports multiple providers via the WordPress Connectors API:
 
 - Anthropic Claude
 - OpenAI
@@ -205,4 +203,4 @@ GPL-2.0-or-later. See [LICENSE](LICENSE) for details.
 
 ---
 
-*Sentinel-MCP — Manage WordPress from any MCP client.*
+*WPEditor-MCP — Manage WordPress from any MCP client.*
